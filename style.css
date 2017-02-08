@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.banner {
+  padding-top: 80px;
+  background-image: url('images/background.jpg');
+  background-position: left center;
+  opacity: 0.8;
+  width: 100vw;
+  height: 400px;
+}
+
+.banner-content {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.banner-content h1,h2 {
+  color: white;
+}
+
+.banner-content h1 {
+  font-family: montserrat;
+}
+
+.banner-content h2 {
+  font-family: lora;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.container-article {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.container-article h3 {
+  font-family: montserrat;
+  color: #A0A0A0;
+  font-size: 27px;
+  line-height: 43px;
+  font-weight: 400;
+}
+
+.container-article p {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: lora;
+}
+
+.link-green-hover {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  background: rgba(0, 128, 0, 0.5);
+  font-family: lora;
+  font-weight: 400;
+  font-style: italic;
+  transition: background 200ms ease;
+}
+
+.link-green-hover:hover {
+  background: rgba(0, 128, 0, 1);
+}
